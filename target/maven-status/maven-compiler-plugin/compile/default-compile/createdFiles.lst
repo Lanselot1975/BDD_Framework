@@ -1,0 +1,9 @@
+pages/action/PhptravelsBookingPageAction.class
+pages/action/PhptravelsVisaPageAction.class
+pages/locators/PhptravelsLoginPageLocator.class
+pages/action/PhpTravelsPersonalDataAction.class
+pages/locators/PhptravelsBookingPageLocator.class
+pages/action/PhptravelsLoginPageAction.class
+pages/locators/PhptravelsVisaPageLocator.class
+utils/SeleniumDriver.class
+pages/locators/PhpTravelsPersonalDataLocator.class

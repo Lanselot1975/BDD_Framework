@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+<!--    <test name="Run browser chrome">-->
+<!--        <parameter name="browser" value="chrome" />-->
+<!--        <parameter name="docker" value="false" />-->
+<!--        <classes>-->
+<!--            <class name="runner.Runner"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Run browser firefox">-->
+<!--        <parameter name="browser" value="firefox" />-->
+<!--        <parameter name="docker" value="false" />-->
+<!--        <classes>-->
+<!--            <class name="runner.Runner"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="Run api verifications">
+        <classes>
+            <class name="runner.APIRunner"/>
+        </classes>
+    </test>
+</suite>
+
+
