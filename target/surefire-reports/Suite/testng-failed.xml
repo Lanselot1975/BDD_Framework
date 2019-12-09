@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="docker" value="false"/>
+  <test name="Run browser chrome">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="docker" value="false"/>
+    <classes>
+      <class name="runner.Runner"/>
+    </classes>
+  </test> <!-- Run browser chrome -->
+</suite> <!-- Failed suite [Suite] -->

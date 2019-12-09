@@ -1,0 +1,186 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Get single resource (Status code: 200)",
+        "description": "",
+        "id": "api-tests;get-single-resource-(status-code:-200)",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 125344985,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I set user service api endpoint \"https://jsonplaceholder.typicode.com/posts?id\u003d7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://jsonplaceholder.typicode.com/posts?id\u003d7",
+                  "offset": 33
+                }
+              ],
+              "location": "StepdefsAPI.i_set_user_service_api_endpoint(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 812162,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Set request HEADER",
+            "match": {
+              "location": "StepdefsAPI.i_Set_request_HEADER()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 567295780,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Send a GET HTTP request",
+            "match": {
+              "location": "StepdefsAPI.send_a_GET_HTTP_request()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 241114983,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I receive valid Response \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "StepdefsAPI.i_receive_valid_Response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Create user (Status code: 201)",
+        "description": "",
+        "id": "api-tests;create-user-(status-code:-201)",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 250685,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I set user service api endpoint POST \"https://jsonplaceholder.typicode.com/posts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://jsonplaceholder.typicode.com/posts",
+                  "offset": 38
+                }
+              ],
+              "location": "StepdefsAPI.i_set_user_service_api_endpoint_POST(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22777,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Set request POST HEADER",
+            "match": {
+              "location": "StepdefsAPI.i_Set_request_POST_HEADER()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 341867457,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Send a POST HTTP request",
+            "match": {
+              "location": "StepdefsAPI.send_a_POST_HTTP_request()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Google bad request user (Status code: 404)",
+        "description": "",
+        "id": "api-tests;google-bad-request-user-(status-code:-404)",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 106569,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I set user service api endpoint POST \"https://jsonplaceholder.typicode.com/postse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://jsonplaceholder.typicode.com/postse",
+                  "offset": 38
+                }
+              ],
+              "location": "StepdefsAPI.i_set_user_service_api_endpoint_POST(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16662,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I Set request POST HEADER",
+            "match": {
+              "location": "StepdefsAPI.i_Set_request_POST_HEADER()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 302263469,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Send a POST 404 HTTP request",
+            "match": {
+              "location": "StepdefsAPI.send_a_POST_404_HTTP_request()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "API tests",
+    "description": "",
+    "id": "api-tests",
+    "keyword": "Feature",
+    "uri": "apitests.feature"
+  }
+]
